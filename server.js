@@ -16,7 +16,7 @@ mongoose
 
 app.use('/auth', authRoutes);
 
-app.use(cors({ origin: 'https://your-frontend-url.vercel.app' }));
+app.use(cors({ origin: 'number-guessing-backend.vercel.app' }));
 
 
 const PORT = process.env.PORT || 5000;
